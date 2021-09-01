@@ -61,13 +61,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void seleccionar(View view) {
-        octal();
-        group();
-        publiC();
-        Symbolic();
+        ownerSwitch();
+        groupSwitch();
+        publicSwitch();
+        symbolic();
     }
 
-    public void octal(){
+    public void ownerSwitch(){
         int totalS = 0;
         String total_string = "";
 
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
             txtOwnerOctal.setText(String.valueOf(totalS));
         }
     }
-    public void group(){
+    public void groupSwitch(){
         int totalS = 0;
         String total_string = "";
         if(sGroupReader.isChecked()){
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             txtGroupOctal.setText(String.valueOf(totalS));
         }
     }
-    public void publiC(){
+    public void publicSwitch(){
         int totalS = 0;
         String total_string = "";
         if(sPublicReader.isChecked()){
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
             txtPublicOctal.setText(String.valueOf(totalS));
         }
     }
-    public void Symbolic(){
+    public void symbolic(){
         String sOReader = "", sOWrite = "", sOExecute = "", sGReader = "",
          sGExecute = "", sGWrite = "", sPReader = "", sPWrite = "",sPExecute = "";
 
