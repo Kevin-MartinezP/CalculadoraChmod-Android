@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Calculator Chmod</string>
+
+    <string name="switchReader">Reader</string>
+    <string name="switchWrite">Write</string>
+    <string name="switchExcute">Excute</string>
+
+    <string name="txtOwner">Owner</string>
+    <string name="txtGroup">Group</string>
+    <string name="txtPublic">Public</string>
+    <string name="txtAbsolute">Absolute Mode</string>
+    <string name="txtSymbolic">Symbolic Mode</string>
+
+
+
+    <string name="buton">CALCULATOR</string>
+</resources>
